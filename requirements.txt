@@ -1,0 +1,8 @@
+pandas
+presidio-analyzer
+presidio-anonymizer
+docx
+pdfminer.six
+lanchain-community
+lanchain
+lingua-language-detector

@@ -7,3 +7,4 @@ langchain
 lingua-language-detector
 unidecode
 anonymization
+spacy

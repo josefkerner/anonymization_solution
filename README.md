@@ -18,7 +18,7 @@ cd anonymization_solution
 set PYTHONPATH=. 
 or export PYTHONPATH=. (for linux and mac users)
 ```
-7. download the spacy model
+7. download the spacy model for documents anonymization
 ```bash
 python -m spacy download en_core_web_lg
 ```

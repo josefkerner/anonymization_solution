@@ -1,7 +1,6 @@
 pandas
-presidio-analyzer
-presidio-anonymizer
-docx
+unstructured
+docx-parser
 pdfminer.six
 lanchain-community
 lanchain

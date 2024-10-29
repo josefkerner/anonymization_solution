@@ -1,6 +1,6 @@
 import os
 from src.extraction_service.extraction_service import ExtractionService
-from src.extraction_service.pdf.pdf_ocr_service import PdfOcrService
+#from src.extraction_service.pdf.pdf_ocr_service import PdfOcrService
 from pdfminer.high_level import extract_text
 import base64
 from datetime import datetime
@@ -8,7 +8,7 @@ class PdfExtraction(ExtractionService):
 
     def __init__(self):
         pass
-        self.ocr = PdfOcrService()
+        #self.ocr = PdfOcrService()
 
     def extract_file(self, filename:str) -> str:
         text = extract_text(filename)

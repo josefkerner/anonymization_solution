@@ -7,4 +7,5 @@ langchain
 lingua-language-detector
 unidecode
 anonymization
+numpy
 spacy

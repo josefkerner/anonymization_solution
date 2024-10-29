@@ -2,6 +2,6 @@ pandas
 unstructured
 docx-parser
 pdfminer.six
-lanchain-community
-lanchain
+langchain-community
+langchain
 lingua-language-detector

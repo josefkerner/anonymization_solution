@@ -18,6 +18,10 @@ cd anonymization_solution
 set PYTHONPATH=. 
 or export PYTHONPATH=. (for linux and mac users)
 ```
+7. download the spacy model
+```bash
+python -m spacy download en_core_web_lg
+```
 7. Run the following command to start the application:
 ```bash
 python src/main.py

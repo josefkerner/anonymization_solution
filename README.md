@@ -8,7 +8,7 @@ This solution parses and anonymizes source documents for RAG AI use cases
 ```bash
 pip install -r requirements.txt
 ```
-4. place the source documents in the `data` folder
+4. place the source documents in the `data` folder, documents can be in pdf, docx or txt format
 5. change location to root of the project
 ```bash
 cd anonymization_solution

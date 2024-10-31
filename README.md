@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```bash
 cd anonymization_solution
 ```
-6. export the env var PYTHONPATH in the root of the project
+6. MAKE SURE TO export the env var PYTHONPATH in the root of the project
 ```bash
 set PYTHONPATH=. 
 or export PYTHONPATH=. (for linux and mac users)

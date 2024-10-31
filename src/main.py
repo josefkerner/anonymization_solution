@@ -1,3 +1,7 @@
+import os
+
+os.environ['PYTHONPATH'] = '.'
+
 from src.anon.anonymizer import Anonymizer
 from src.extraction_service.extraction_service_factory import ExtractionServiceFactory
 from data_models.file_input import Input

@@ -33,6 +33,10 @@ class Anonymizer:
         #replace every number in text with 'X'
         text = ''.join(['0' if c.isdigit() else c for c in text])
 
+        #replace websites
+        url_regex = 'www\.[a-zA-Z0-9]+\.[a-zA-Z]+'
+        text = re.sub(url_regex,'wwww.website.com',text)
+
         #replace every company name followed by 'a.s' with 'COMPANY a.s.'
         #company name can contain diacritics such as Česká spořitelna a.s.
         pattern = r'([áéíóúůýžčřďťňÁÉÍÓÚŮÝŽČŘĎŤŇ]|[a-z]|[A-Z])+ a\.s\.'

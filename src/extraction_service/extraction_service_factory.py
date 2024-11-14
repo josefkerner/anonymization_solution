@@ -15,8 +15,7 @@ class ExtractionServiceFactory:
             'docx': word_service,
             'doc': word_service,
             'web': WebExtractionService(),
-            'txt': TextGenerationService(),
-            'rtf': RtfService()
+            'txt': TextGenerationService()
         }
     def get_extraction_service(self, input: Input) -> ExtractionService:
         '''
